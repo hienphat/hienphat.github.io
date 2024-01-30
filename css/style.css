@@ -6,7 +6,6 @@
 section > .container{
     width: 1400px;
     left: 0;
-    padding: 20px 50px;
     line-height: 1.5;
     position: relative;
 
@@ -47,27 +46,26 @@ section > .container{
 }
 
 .avatar{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     position: absolute;
     border: 5px solid white;
     border-radius: 50%;
     top: -60px;
-    left: 40%;
+    left: 45%;
 
 }
 
 .nav-bar-left {
     overflow: hidden;
-    border: 1px solid rgb(219, 213, 213);
     background-color: white;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
   
 .nav-bar-left a {
     float: left;
-    color: black;
+    color: rgb(206, 141, 141);
     text-align: center;
     padding: 20px 10px;
     text-decoration: none;
@@ -76,17 +74,18 @@ section > .container{
   
 .nav-bar-left a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(191, 128, 128);
 }
   
 a.detail {
     color: black;
     margin-left: 20px;
+    
 }
 .detail{
-    border-right: 1px solid rgb(219, 213, 213);
     padding: 0px 50px;
     height: 30px;
+    border: rgb(180, 98, 98);
 
 }
 
@@ -116,9 +115,7 @@ a.detail {
     right: 20px;
     left: 40px;
     border-right: 1px solid rgb(226, 219, 219);
-    /*
-    border: 1px solid black;
-    */ 
+
   }
 
 #target{
@@ -145,10 +142,12 @@ a.detail {
     width: 1000px;
     align-content: center;
     margin: auto;
+
 }
 
 .menu-grid{
     display:flex;
+
 }
 .h1-grid{
     width: 70%;
@@ -186,11 +185,12 @@ a.detail {
     text-align: left;
     padding: 20px 20px;
     font-size: 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(167, 110, 110);
+    line-height: 1.7;
 
 }
 .border{
-    height: 200px;
+    height: 300px;
 }
 
 .level3{
@@ -368,20 +368,26 @@ a.detail {
     display: flex;
     margin: auto;
     padding: 40px;
-    width: 800px;
+    width: auto;
     align-items: center;
     justify-content: center; /* canh giữa*/
-    color:rgb(84, 131, 147);;
+    color:rgb(84, 131, 147);
+    align-items: baseline;
     
 }
 .footer-icon p{
     padding: 20px;
+    
+    justify-content: center; 
+
 }
 .footer-icon i {
     border-radius: 30px;
     box-shadow: 0 0 5px rgb(84, 131, 147);
+    background-color: rgb(84, 131, 147);;
     padding: 0.3em 0.3em;
     border: 20px rgb(84, 131, 147);
+    color: white;
     
 }
 
