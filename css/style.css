@@ -1,0 +1,388 @@
+* {
+    margin: 0px;
+}
+
+
+section > .container{
+    width: 1400px;
+    left: 0;
+    padding: 20px 50px;
+    line-height: 1.5;
+    position: relative;
+
+}
+
+/*khối: ảnh đại diện */
+#banner{
+    left: 0;
+    position: relative;
+    
+}
+.name{
+    position: absolute;
+    color: #f7f7f7;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+}
+.name_A {
+    position: absolute;
+    top: 30%;
+}
+.name_B{
+    position: absolute;
+    top: 35%;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+    left: 200px;
+    
+}
+
+/*khối: navabar */
+#nav-bar {
+    text-align: center;
+
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: -60px;
+    left: 40%;
+
+}
+
+.nav-bar-left {
+    overflow: hidden;
+    border: 1px solid rgb(219, 213, 213);
+    background-color: white;
+    margin-left: 250px;
+}
+
+  
+.nav-bar-left a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav-bar-left a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+a.detail {
+    color: black;
+    margin-left: 20px;
+}
+.detail{
+    border-right: 1px solid rgb(219, 213, 213);
+    padding: 0px 50px;
+    height: 30px;
+
+}
+
+.N3{
+    
+    width: 270px;
+}
+
+
+/*khối 2: mục tiêu nghề nghiệp */
+.container-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 0px;
+    width: 1400px;
+}    
+
+.grid-item {
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding: 40px;
+    height: 250px;
+    right: 20px;
+    left: 40px;
+    border-right: 1px solid rgb(226, 219, 219);
+    /*
+    border: 1px solid black;
+    */ 
+  }
+
+#target{
+    width: 650px;
+}
+
+#personal-info{
+    width: 650px;
+
+}
+
+.canhan-icon{
+    margin-top: 30px;
+}
+
+/* khối 3: kinh ngiệm  - học vấn - hoạt động    */         
+
+.grid-line{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    width: 1000px;
+    align-content: center;
+    margin: auto;
+}
+
+.menu-grid{
+    display:flex;
+}
+.h1-grid{
+    width: 70%;
+    left: 0;
+}
+.p-grid{
+    width: 30%;
+    right: 0;
+    height: 50px;
+
+}
+
+.h2-grid{
+    font-size: 17px;
+
+}
+.menu-grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    
+    gap: 10px;
+    text-align: center;
+}
+
+.menu-grid2 > i {
+    border-radius: 50%;
+    border: 2px solid rgb(227, 177, 177);
+    padding: 20px;
+
+}
+
+.grid-detail {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+.border{
+    height: 200px;
+}
+
+.level3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 5px;
+}
+.level3-1{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: blue;
+    border-color: blue;
+    width: 90%;
+    grid-column: 1;
+   
+}
+.level3-2{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: blue;
+    border-color: blue;
+    width: 90%;
+    grid-column: 2;
+   
+}
+.level3-3{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: rgb(240, 192, 192);
+    border-color: blue;
+    grid-column: 3;
+    width: 90%;
+}
+
+.level2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 5px;
+}
+.level2-1{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: blue;
+    border-color: blue;
+    width: 90%;
+    grid-column: 1;
+    
+   
+}
+.level2-2{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: rgb(240, 192, 192);
+    border-color: blue;
+    width: 90%;
+    grid-column: 2;
+   
+}
+.level2-3{
+    border-radius:10px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: rgb(240, 192, 192);
+    border-color: blue;
+    grid-column: 3;
+    width: 90%;
+}
+
+
+
+
+ /* khối chứng chỉ - giải thưởng */  
+
+.container-certificate{
+    width: 1000px;
+    margin: auto;
+}
+.section-certificate{
+    margin-bottom: 30px;
+}
+ .gen-certificate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    row-gap: 30px;
+    width: 1000px;
+
+}
+
+.img-certificate{
+    height: 50px;
+    left:0;
+    margin: 10px;
+}
+.name-certificate{
+    font-size: 15px;
+    margin: auto;
+}
+
+.main-certificate{
+    display: flex;
+}
+.detail-certificate{
+    width: 70%;
+    right: 0;
+}
+
+ /*********** khối Dự án *************/  
+
+ table, th, td {
+    border: 1px solid rgb(153, 144, 144);
+    border-collapse: collapse;
+  }
+.project-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    width: 1000px;
+    margin: auto;
+
+}
+.project-image{
+    width: 100%;
+}
+.project-head{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.project-h2{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.time-border{
+    display: flex;
+    font-size: 15px;
+    margin: auto;
+    border-top: 1px solid rgb(56, 104, 140);
+    border-right: 1px solid rgb(56, 104, 140);
+    border-left: 1px solid rgb(56, 104, 140);
+    padding: 10px;
+
+}
+.time-year{
+    border: 2px solid rgb(56, 104, 140);
+    border-radius: 5px;
+    background-color: rgb(73, 119, 154);
+    color: white;
+    margin-right: 10px;
+
+}
+.time-name{
+    margin-right: 10px;    
+}
+.time-skill{
+    margin-right: 10px;
+
+}
+
+
+/* khối footer */  
+.footer-icon{
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    width: 800px;
+    align-items: center;
+    justify-content: center; /* canh giữa*/
+    color:rgb(84, 131, 147);;
+    
+}
+.footer-icon p{
+    padding: 20px;
+}
+.footer-icon i {
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(84, 131, 147);
+    padding: 0.3em 0.3em;
+    border: 20px rgb(84, 131, 147);
+    
+}
+
+
